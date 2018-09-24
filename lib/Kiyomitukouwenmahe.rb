@@ -9,7 +9,10 @@ floorroom = ["B1", "D1", "E3", "E4"]
 
 unused = ["A1内"]
 
-block = []
+
+block = tower.product(floor).product(side).map do |i|
+	i.flatten.join
+end
 
 for t in tower
 
