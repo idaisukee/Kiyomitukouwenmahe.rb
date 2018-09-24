@@ -1,7 +1,7 @@
 # coding: utf-8
-tower = "A".."E"
+tower = Range.new('A', 'E').to_a
 
-floor = 1..5
+floor = Range.new(1, 5).to_a
 
 side = ["内", "外"]
 
